@@ -3,6 +3,11 @@ body{
     color: #000 !important;
 }
 
+::selection {
+    color: #fff !important; 
+    background: #64932d !important;
+}
+
 .card{
     padding: 30px !important;
     border: none !important;
