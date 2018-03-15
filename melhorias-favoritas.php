@@ -3,7 +3,7 @@
 <div class="container card-melhorias">
   <div class="row card">
   
-		<h3>Últimas melhorias</h3>
+		<h3>Melhorias favoritas</h3>
 		
 		<table class="table table-hover">
 		  <thead>
@@ -30,16 +30,13 @@
 			  <td>
 				<button type="button" class="btn btn-primary btn-sm">
 					<abbr title="Aumenta a força da melhoria, quanto mais curtidas ela receber, maiores as chances de ela ser implementada." class="initialism">
-						<span class="oi oi-thumb-up" aria-hidden="true"></span> 27
+						<span class="oi oi-thumb-up" aria-hidden="true"></span>
 					</abbr>
 				</button>
-				<button type="button" class="btn btn-success btn-sm">
+				<button type="button" class="btn btn-warning btn-sm">
 					<abbr title="Ao colocar uma melhoria como favorita, qualquer mudança no seu estado (se ela for implementada, alterada ou algo do tipo) você será notificado no menu ''Favoritas''." class="initialism">
 						<span class="oi oi-star" aria-hidden="true"></span>
 					</abbr>
-				</button>
-				<button type="button" class="btn btn-secondary btn-sm">
-					<span class="oi oi-comment-square" title="Comentar" aria-hidden="true" data-toggle="modal" data-target="#modal-comentar"></span>
 				</button>
 				<button type="button" class="btn btn-secondary btn-sm">
 					<span class="oi oi-zoom-in" title="Ver detalhes" aria-hidden="true" data-toggle="modal" data-target="#modal-melhoria"></span>
@@ -63,69 +60,17 @@
 					</abbr>
 				</button>
 				<button type="button" class="btn btn-secondary btn-sm">
-					<span class="oi oi-comment-square" title="Comentar" aria-hidden="true" data-toggle="modal" data-target="#modal-melhoria"></span>
-				</button>
-				<button type="button" class="btn btn-secondary btn-sm">
 					<span class="oi oi-zoom-in" title="Ver detalhes" aria-hidden="true" data-toggle="modal" data-target="#modal-melhoria"></span>
 				</button>			  
 			  </td>
 			</tr>
-			
-			<tr>
-			  <th scope="row">1</th>
-			  <td>Melhoria teste</td>
-			  <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non sem a...</td>
-			  <td>
-				<button type="button" class="btn btn-warning btn-sm" data-toggle="button" aria-pressed="true" autocomplete="off">
-					<abbr title="Aumenta a força da melhoria, quanto mais curtidas ela receber, maiores as chances de ela ser implementada." class="initialism">
-						<span class="oi oi-thumb-up" aria-hidden="true"></span>
-					</abbr>
-				</button>
-				<button type="button" class="btn btn-success btn-sm">
-					<abbr title="Ao colocar uma melhoria como favorita, qualquer mudança no seu estado (se ela for implementada, alterada ou algo do tipo) você será notificado no menu ''Favoritas''." class="initialism">
-						<span class="oi oi-star" aria-hidden="true"></span>
-					</abbr>
-				</button>
-				<button type="button" class="btn btn-secondary btn-sm">
-					<span class="oi oi-comment-square" title="Comentar" aria-hidden="true" data-toggle="modal" data-target="#modal-melhoria"></span>
-				</button>
-				<button type="button" class="btn btn-secondary btn-sm">
-					<span class="oi oi-zoom-in" title="Ver detalhes" aria-hidden="true" data-toggle="modal" data-target="#modal-melhoria"></span>
-				</button>			  
-			  </td>
-			</tr>
-			
 		  </tbody>
 		</table>
 		
   </div>
 </div>
 
-<!-- Modal de comentário -->
-
-<div class="modal fade" id="modal-comentar" tabindex="-1" role="dialog" aria-labelledby="modal-comentar" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modal-comentar">Comentar</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">FECHAR</button>
-		<button type="button" class="btn btn-success">
-			ENVIAR COMENTÁRIO
-		</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal de detalhes da melhoria -->
+<!-- Modal de recuperação de senha-->
 
 <div class="modal fade" id="modal-melhoria" tabindex="-1" role="dialog" aria-labelledby="modal-melhoria" aria-hidden="true">
   <div class="modal-dialog" role="document">

@@ -6,19 +6,37 @@ body{
 .card{
     padding: 30px !important;
     border: none !important;
-    box-shadow: 0 0 40px rgba(0,0,0,.05) !important;
+    box-shadow: 0 0 40px rgba(0,0,0,.08) !important;
 }
 
 .btn-primary{
     text-transform: uppercase !important;
     color: #fff;
-    background-color: #6EA632;
-    border-color: #6EA632;
+    background-color: #00417A !important;
+    border-color: #002f59 !important;
 }
 
 .btn-primary:hover{
-    background-color: #588e1b !important;
-    border-color: #689b2d !important;
+    background-color: #003563 !important;
+    border-color: #002e56 !important;
+	box-shadow: 0 0 0 0.2rem rgba(0, 65, 122, 0.25)
+}
+
+.btn-success{
+    text-transform: uppercase !important;
+    color: #fff;
+    background-color: #6EA632 !important;
+    border-color: #64932d !important;
+}
+
+.btn-success:hover{
+    background-color: #64932d !important;
+    border-color: #557c25 !important;
+	box-shadow: 0 0 0 0.2rem rgba(100, 147, 45, 0.25)
+}
+
+.btn-warning{
+    color: #fff !important;
 }
 
 h1, h2, h3, h4, h5, h6, h7{
@@ -34,4 +52,42 @@ a{
 
 .form-control:focus{
     box-shadow: 0 0 0 0.2rem rgba(0, 65, 122, 0.25)
+}
+
+.bg-light{
+	background-color: #fff !important;
+	box-shadow: 0 0 40px rgba(0,0,0,.08) !important;
+}
+
+ul.navbar-nav li{
+	margin-right: 10px !important;
+	display: inline-block !important;
+	height: 55px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	padding-top: 5px !important;
+	border: solid 1px #ffffff !important;
+}
+
+ul.navbar-nav li:hover{
+	border: solid 1px #e5e5e5 !important;
+	border-radius: 5px !important;
+}
+
+ul.navbar-nav li a{
+	color: #515151 !important;
+    transition: 0.2s;
+	font-weight: 700 !important;
+}
+
+ul.navbar-nav li a:hover{
+	color: #333333 !important;
+}
+
+.img-logotipo{
+	margin-right: 20px !important;
+}
+
+#pesquisa-id{
+	width: 100px !important;
 }
