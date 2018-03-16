@@ -1,3 +1,4 @@
+/* CSS de elementos básicos */
 body{
     background-color: #E5E5E5 !important;
     color: #000 !important;
@@ -8,12 +9,25 @@ body{
     background: #64932d !important;
 }
 
+h1, h2, h3, h4, h5, h6, h7{
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+}
+
+a{
+    color: #00417A !important;
+}
+
+/* CSS do card branco utilizado para as informações gerais em todas as páginas */
 .card{
     padding: 30px !important;
     border: none !important;
     box-shadow: 0 0 40px rgba(0,0,0,.08) !important;
 }
 
+/* Botões com cor padrão da Máxima */
 .btn-primary{
     text-transform: uppercase !important;
     color: #fff;
@@ -44,17 +58,7 @@ body{
     color: #fff !important;
 }
 
-h1, h2, h3, h4, h5, h6, h7{
-    font-weight: 400 !important;
-    text-transform: uppercase !important;
-    text-align: center !important;
-    margin-bottom: 20px !important;
-}
-
-a{
-    color: #00417A !important;
-}
-
+/* Edição de cores e estilo dos formulários */
 .form-control:focus{
     box-shadow: 0 0 0 0.2rem rgba(0, 65, 122, 0.25)
 }
@@ -64,6 +68,7 @@ a{
 	box-shadow: 0 0 40px rgba(0,0,0,.08) !important;
 }
 
+/* CSS da barra de menu superior */
 ul.navbar-nav li{
 	margin-right: 10px !important;
 	display: inline-block !important;
@@ -93,6 +98,17 @@ ul.navbar-nav li a:hover{
 	margin-right: 20px !important;
 }
 
+ ul.navbar-nav li a.dropdown-item:active{
+	color: #fff !important;
+    background-color: #00417A !important;
+}
+
+/* Outros */
+/* Tamanho do campo de pesquisa por código na listagem de melhorias */
 #pesquisa-id{
 	width: 100px !important;
+}
+/* Tamanho dos ícones no menu de logout, canto superior direito*/
+.oi-sm{
+	font-size: 13px !important;
 }

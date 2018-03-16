@@ -49,8 +49,16 @@
 			 <small>Logado como <strong>Raul Kaio</strong></small>
 			</a>
 			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			  <a class="dropdown-item" href="#">Área de cadastros</a>
-			  <a class="dropdown-item" href="#">Logout</a>
+			  <a class="dropdown-item" href="cadastro-melhoria.php"><span class="oi oi-sm" data-glyph="file"></span>&nbsp;&nbsp;Cadastrar melhoria</a>
+			  <a class="dropdown-item" href="cadastro-usuario.php"><span class="oi oi-sm" data-glyph="person"></span>&nbsp;&nbsp;Cadastrar usuário</a>
+			  <div class="dropdown-divider"></div>
+			  <a class="dropdown-item" href="melhorias-cadastradas.php"><span class="oi oi-sm" data-glyph="layers"></span>&nbsp;&nbsp;Melhorias cadastradas</a>
+			  <a class="dropdown-item" href="usuarios-cadastrados.php"><span class="oi oi-sm" data-glyph="people"></span>&nbsp;&nbsp;Usuários cadastrados</a>
+			  <div class="dropdown-divider"></div>
+			  <a class="dropdown-item" href="melhorias-excluidas.php"><span class="oi oi-sm" data-glyph="trash"></span>&nbsp;&nbsp;Melhorias excluídas</a>
+			  <a class="dropdown-item" href="usuarios-excluidos.php"><span class="oi oi-sm" data-glyph="trash"></span>&nbsp;&nbsp;Usuários excluídos</a>
+			  <div class="dropdown-divider"></div>
+			  <a class="dropdown-item" href="#"><span class="oi oi-sm" data-glyph="account-logout"></span>&nbsp;&nbsp;Logout</a>
 			</div>
 		  </li>
 		</ul>
